@@ -1,0 +1,35 @@
+{
+    "output": null,
+    "generator": "site",
+    "isbn": "",
+    "extension": null,
+    "plugins": [
+        "custom-favicon",
+        "insert-logo-link",
+        "-sharing",
+        "-lunr",
+        "search",
+        "theme-official"
+    ],
+    "title": "Шаблон ЭУМК",
+    "author": "Greysoft",
+    "description": "Электронно-учебный методический комплекс - ШАБЛОН",
+    "language": "en",
+    "root": ".",
+    "structure": {
+        "readme": "README.md",
+        "summary": "SUMMARY.md",
+        "glossary": "GLOSSARY.md"
+      },
+    "pluginsConfig": {
+        "insert-logo-link": {
+            "src": "images/logo.png",
+            "url": "https://ytk.edu.ru/"
+          },
+        "favicon": "images/favicon.ico"
+    },
+    "styles": {
+        "website": "styles/website.css"
+    }
+
+}
