@@ -3,46 +3,28 @@
 ### Начало работы с ЭУМК
 
 * [Аннотация](README.md)
-* [Installation and Setup](getting-started/installation.md)
+* [Содержание](docs/structure.md)
 
 ### Структура ЭУМК
 
-* [Directory structure](structure.md)
-* [Pages and Summary](pages.md)
-* [Configuration](config.md)
-* [Glossary](lexicon.md)
-* [Multi-Lingual](languages.md)
-* [Markdown](syntax/markdown.md)
-    * [Headings](syntax/markdown.md#headings)
-    * [Paragraphs](syntax/markdown.md#paragraphs)
-    * [Lists](syntax/markdown.md#lists)
-    * [Links](syntax/markdown.md#links)
-    * [Images](syntax/markdown.md#images)
-    * [Blockquotes](syntax/markdown.md#blockquotes)
-    * [Tables](syntax/markdown.md#tables)
-    * [Code](syntax/markdown.md#code)
-    * [HTML](syntax/markdown.md#html)
-    * [Footnotes](syntax/markdown.md#footnotes)
-* [AsciiDoc](syntax/asciidoc.md)
-* [eBook and PDF](ebook.md)
+* [Нормативный раздел](docs/standart/structure.md)
+    * Пример
+* [Учебно-методический раздел](docs/metodical/structure.md)
+    * Пример учебно-методического пособия
+        * Лекция 1
+        * Слайд-лекция 1
+        * Практикум
+        * Видеолекция
+        * Виртуальный лабораторный комплекс
+* [Контрольно-измерительный раздел](docs/measurement/structure.md)
+    * Пример тестового задания
+* [Информационный раздел](docs/information/structure.md)
+    * Список литературы
+    * Дидактический материал
+    * [Глоссарий](GLOSSARY.md)
 
-### Customization
-
-* [Templating](templating/README.md)
-    * [Content References](templating/conrefs.md)
-    * [Variables](templating/variables.md)
-    * [Builtin](templating/builtin.md)
-* [Plugins](plugins/README.md)
-    * [Create a plugin](plugins/create.md)
-    * [Hooks](plugins/hooks.md)
-    * [Blocks](plugins/blocks.md)
-    * [Filters](plugins/filters.md)
-    * [API & Context](plugins/api.md)
-    * [Test your plugin](plugins/testing.md)
-* [Theming](themes/README.md)
+### Дополнительно
 
 ---
 
-* [FAQ](faq.md)
-* [Examples](examples.md)
-* [Release notes](CHANGES.md)
+* [Вопросы и ответы](faq.md)

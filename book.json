@@ -7,24 +7,25 @@
         "custom-favicon",
         "insert-logo-link",
         "-sharing",
+        "theme-official",
         "-lunr",
-        "search",
-        "theme-official"
+        "algolia"
     ],
     "title": "Шаблон ЭУМК",
     "author": "Greysoft",
-    "description": "Электронно-учебный методический комплекс - ШАБЛОН",
+    "description": "Электронно-учебный методический комплекс дисциплины",
     "language": "en",
     "root": ".",
-    "structure": {
-        "readme": "README.md",
-        "summary": "SUMMARY.md",
-        "glossary": "GLOSSARY.md"
-      },
     "pluginsConfig": {
         "insert-logo-link": {
             "src": "images/logo.png",
             "url": "https://ytk.edu.ru/"
+          },
+          "algolia": {
+            "index": "algolia-index-name",
+            "applicationID": "algolia-application-id",
+            "publicKey": "algolia-search-only-api-key",
+            "freeAccount": "true"
           },
         "favicon": "images/favicon.ico"
     },
