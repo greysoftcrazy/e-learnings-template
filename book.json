@@ -1,4 +1,5 @@
 {
+    "gitbook": "3.2.2",
     "output": null,
     "generator": "site",
     "isbn": "",
@@ -6,15 +7,18 @@
     "plugins": [
         "custom-favicon",
         "insert-logo-link",
+        "algolia",
+        "search",
         "-sharing",
         "theme-official",
         "-lunr",
-        "algolia"
+        "-fontsettings"
+        
     ],
     "title": "Шаблон ЭУМК",
     "author": "Greysoft",
     "description": "Электронно-учебный методический комплекс дисциплины",
-    "language": "en",
+    "language": "ru",
     "root": ".",
     "pluginsConfig": {
         "insert-logo-link": {
@@ -22,9 +26,9 @@
             "url": "https://ytk.edu.ru/"
           },
           "algolia": {
-            "index": "algolia-index-name",
-            "applicationID": "algolia-application-id",
-            "publicKey": "algolia-search-only-api-key",
+            "index": "e-learnings-template",
+            "applicationID": "EQRWZKJH6M",
+            "publicKey": "03617eabb04cc9cdd91084f3f8f7add0",
             "freeAccount": "true"
           },
         "favicon": "images/favicon.ico"
