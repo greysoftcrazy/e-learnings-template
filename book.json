@@ -5,15 +5,14 @@
     "isbn": "",
     "extension": null,
     "plugins": [
+        "search",        
         "custom-favicon",
         "insert-logo-link",
         "algolia",
-        "search",
         "-sharing",
         "theme-official",
         "-lunr",
         "-fontsettings"
-        
     ],
     "title": "Шаблон ЭУМК",
     "author": "Greysoft",
